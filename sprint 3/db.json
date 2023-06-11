@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "José",
+      "email": "xcvkp@example.com",
+      "telefone": "(99) 99999-9999",
+      "endereco": {
+        "rua": "Rua ABC",
+        "numero": 123,
+        "bairro": "Centro",
+        "cidade": "São Paulo",
+        "uf": "SP",
+        "cep": "01234-567"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Davi Aguilar Nunes Oliveira",
+      "email": "daviaguilar10@hotmail.com",
+      "telefone": "(33) 98882-1138",
+      "endereco": {
+        "rua": "Rua Francisco Nunes",
+        "numero": 111,
+        "bairro": "Centro",
+        "cidade": "Guanhães",
+        "uf": "MG",
+        "cep": "39740-000"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "José zé da manga",
+      "email": "zedamanga@hotmail.com",
+      "telefone": "(33) 96854-5477",
+      "endereco": {
+        "rua": "Rua Francisco Nunes",
+        "numero": 111,
+        "bairro": "Centro",
+        "cidade": "Guanhães",
+        "uf": "MG",
+        "cep": "39740-000"
+      }
+    },
+    {
+      "bairro": "Centro",
+      "complemento": "casa",
+      "cpf": "130.321.926-33",
+      "email": "daviaguilar10@hotmail.com",
+      "endereco": "Rua Francisco Nunes ",
+      "nome": "Davi Aguilar Nunes Oliveira",
+      "numcasa": "111",
+      "senha": "fde4556",
+      "telefone": "33988821138",
+      "tipolocal": "1",
+      "id": 4
+    }
+  ],
+  "provedores": [
+    {
+      "autonomo": true,
+      "cep":"01234-567",
+      "cpf":"130.321.926-33",
+      "email": "renatomatosap@gmail.com",
+      "empresa": false,
+      "id": 5,
+      "nome": "Renato Matos Alves Penna",
+      "nomeEmpresaLoja": "",
+      "senha": "123456",
+      "servicos": "Padeiro",
+      "telefone":"(33) 98882-1138"
+
+    }
+  ],
+  "tarefas": [
+    {
+      "desctarefa": "Preciso de uma babá para cuidar do meu filho enquanto vou a uma festa com minha esposa.",
+    "data": "2023-06-10",
+    "profissao": "babá"
+    }
+
+  ]
+}
